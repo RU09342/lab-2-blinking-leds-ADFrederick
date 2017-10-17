@@ -6,7 +6,7 @@ int main(void)
     PM5CTL0 &= ~LOCKLPM5;       // enable GPIO usage
     volatile int i;
 
-    P1DIR = 0x01;
+    P1DIR = 0x01;				//setting directions of pins
     P2DIR = 0x01;
     P1OUT = 0x01;
     P2OUT = 0x01;

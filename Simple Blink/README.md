@@ -1,0 +1,1 @@
+For simple blink, I set the LED pin for each board as an output and just toggled between high and low using an XOR statement with itself. In order to get more accustomed to the boards however I used both for loops that were empty in order to delay clock cycles as well as using the built in command __delay_cycles(###). This allowed me to practice syntax while coding in C.
